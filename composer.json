@@ -1,0 +1,15 @@
+{
+    "name": "denilson/php-profissional",
+    "description": "php-profissional",
+    "require": {},
+    "autoload": {
+        "files": [
+            "app/router/router.php",
+            "app/core/controller.php",
+            "app/helpers/constants.php"
+        ],
+        "psr-4": {
+            "app\\": "app"
+        }
+    }
+}
