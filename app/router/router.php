@@ -73,9 +73,7 @@ function router() {
 
     if(!empty($matchedUri)) {
 
-        controller($matchedUri, $params);
-
-        return;
+        return controller($matchedUri, $params);
 
     }
 
