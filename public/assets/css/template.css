@@ -1,0 +1,33 @@
+html,
+body {
+    font-family: 'Arial';
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    border: solid 3px green;
+    padding: 10px;
+}
+
+#box-login {
+    margin: 0 auto;
+    background: tomato;
+    padding: 5px;
+    width: 480px;
+    color: white;
+    text-align: center;
+}
+
+.button-green {
+    background-color: green;
+    border: none;
+    color: white;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
