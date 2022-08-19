@@ -5,7 +5,7 @@ require '../bootstrap.php';
 try {
     router();
 
-    var_dump(ROOT);
+    require VIEWS.'master.php';
     die();
 } catch (\Throwable $th) {
     var_dump($th->getMessage());
