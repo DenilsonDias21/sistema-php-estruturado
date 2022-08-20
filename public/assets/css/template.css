@@ -31,3 +31,20 @@ body {
     width: 100%;
     align-items: center;
 }
+
+#menu_list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+#menu_list li {
+    margin-right: 15px;
+}
+
+#users-home li {
+    background-color: aquamarine;
+    padding: 5px;
+    margin-bottom: 3px;
+}

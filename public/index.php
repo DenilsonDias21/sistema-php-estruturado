@@ -4,7 +4,7 @@ require '../bootstrap.php';
 
 try {
     $data = router();
-    // var_dump($data);
+    
     if(!isset($data['data'])) {
         throw new Exception("O indice data está faltando");
     }
