@@ -7,7 +7,8 @@ class Home {
     public function index($params) {
         
         $users = all('users');
-
+        // var_dump($_SESSION);
+        // die();
         return [
             'view' => 'home.php',
             'data' => [

@@ -12,4 +12,6 @@ return array(
     '95461fc693127a413c8a8aa7237986bc' => $baseDir . '/app/database/connect.php',
     '7367bd2a498b4d11ce3fb765eebfa28f' => $baseDir . '/app/database/fetch.php',
     'f651997b3b1521a84d32ecd2ad341fca' => $baseDir . '/app/helpers/redirect.php',
+    '7d87d346251538fc7d91ab7546874b20' => $baseDir . '/app/helpers/flash.php',
+    '2c46d92b0c4eb5f7bf0362b5462a4d14' => $baseDir . '/app/helpers/sessions.php',
 );

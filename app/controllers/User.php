@@ -18,4 +18,9 @@ class User {
         var_dump($params);
     }
 
+    public function logout() {
+        unset($_SESSION[LOGGED]);
+        return redirect('/');
+    }
+
 }
