@@ -29,13 +29,16 @@ class User {
         
         $validate = validate([
             'name' => 'required',
-            'email' => 'email|unique',
-            'password' => 'required|maxlen'
+            'email' => 'email|unique:users',
+            'password' => 'required|maxlen:10'
         ]);
 
         if(!$validate) {
             return redirect('/user/create');
         }
+
+        var_dump($validate);
+        die();
     }
 
     public function logout() {
