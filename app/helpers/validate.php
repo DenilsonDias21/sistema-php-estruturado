@@ -29,13 +29,13 @@ function validate($validations) {
 }
 
 function multipleValidations($validate, $field, $param) {
-    $result = [];
+    
     $explodePipValidate = explode('|', $validate);
     foreach ($explodePipValidate as $validate) {
         if(str_contains($validate, ':')) {
             [$validate, $param] = explode(':', $validate);
         }
-        $result[$field] = $validate($field, $param);
+        $result = $validate($field, $param);
     }
 
     return $result;    
